@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :users
   # get 'notes/new' => 'notes#new'
   # post '/notes' => 'notes#create'
   # get '/notes' => 'notes#index'
